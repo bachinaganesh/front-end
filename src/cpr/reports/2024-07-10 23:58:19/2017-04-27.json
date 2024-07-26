@@ -1,0 +1,54 @@
+[
+    {
+        "datetime": "2017-03-31 09:35:00",
+        "entry_time": "2017-03-31 09:35:00",
+        "entry_price": 109.65,
+        "exit_time": "2017-03-31 10:45:00",
+        "exit_price": 99.65,
+        "pl": -10.0,
+        "trade_type": "Buy",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY17APR9200CE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2017-03-31 09:35:00",
+                    "2017-03-31 10:45:00"
+                ],
+                "y": [
+                    109.65,
+                    109.65
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2017-03-31 09:35:00",
+                    "2017-03-31 10:45:00"
+                ],
+                "y": [
+                    99.65,
+                    99.65
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2017-03-31 09:35:00",
+                "y": 9204.9,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2017-03-31 10:45:00",
+                "y": 9179.95,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    }
+]

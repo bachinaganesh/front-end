@@ -1,0 +1,14 @@
+[
+    {
+        "Datetime": "2017-06-01 14:30:00",
+        "Signal Price": 9602.15,
+        "ATM Strike": 9750,
+        "Option_type": "PE"
+    },
+    {
+        "Datetime": "2017-06-15 14:30:00",
+        "Signal Price": 9598.2,
+        "ATM Strike": 9750,
+        "Option_type": "PE"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "datetime": "2017-07-04 09:45:00",
+        "entry_time": "2017-07-04 09:45:00",
+        "entry_price": 89.65,
+        "exit_time": "2017-07-04 10:35:00",
+        "exit_price": 79.65,
+        "pl": -10.0,
+        "trade_type": "Buy",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY17JUL9650CE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2017-07-04 09:45:00",
+                    "2017-07-04 10:35:00"
+                ],
+                "y": [
+                    89.65,
+                    89.65
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2017-07-04 09:45:00",
+                    "2017-07-04 10:35:00"
+                ],
+                "y": [
+                    79.65,
+                    79.65
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2017-07-04 09:45:00",
+                "y": 9636.55,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2017-07-04 10:35:00",
+                "y": 9613.0,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    }
+]

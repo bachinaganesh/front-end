@@ -1,0 +1,117 @@
+[
+    {
+        "datetime": "2017-05-02 09:45:00",
+        "entry_time": "2017-05-02 09:45:00",
+        "entry_price": 101.65,
+        "exit_time": "2017-05-02 10:30:00",
+        "exit_price": 91.65,
+        "pl": -10.0,
+        "trade_type": "Buy",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY17MAY9350CE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2017-05-02 09:45:00",
+                    "2017-05-02 10:30:00"
+                ],
+                "y": [
+                    101.65,
+                    101.65
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2017-05-02 09:45:00",
+                    "2017-05-02 10:30:00"
+                ],
+                "y": [
+                    91.65,
+                    91.65
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2017-05-02 09:45:00",
+                "y": 9368.35,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2017-05-02 10:30:00",
+                "y": 9349.05,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "datetime": "2017-05-02 10:45:00",
+        "entry_time": "2017-05-02 10:45:00",
+        "entry_price": 94.45,
+        "exit_time": "2017-05-02 11:15:00",
+        "exit_price": 104.45,
+        "pl": 10.0,
+        "trade_type": "Sell",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY17MAY9300PE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2017-05-02 10:45:00",
+                    "2017-05-02 11:15:00"
+                ],
+                "y": [
+                    94.45,
+                    94.45
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2017-05-02 10:45:00",
+                    "2017-05-02 11:15:00"
+                ],
+                "y": [
+                    104.45,
+                    104.45
+                ]
+            },
+            {
+                "name": "tsl",
+                "x": [
+                    "2017-05-02 10:45:00",
+                    "2017-05-02 11:15:00"
+                ],
+                "y": [
+                    104.45,
+                    104.45
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2017-05-02 10:45:00",
+                "y": 9312.7,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2017-05-02 11:15:00",
+                "y": 9295.3,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    }
+]

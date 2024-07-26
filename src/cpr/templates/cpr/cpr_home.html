@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cpr Form Page</title>
+    <link rel="stylesheet" href="{% static 'cpr/cpr_home.css' %}">
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="instrument">
+            {{ form.instrument.label_tag }}
+            {{ form.instrument }}
+        </div>
+        <div class="conditionaltrade">
+            {{ form.conditional_trade.label_tag }}
+            {{ form.conditional_trade }}
+        </div>
+        <div class="onlong signals">
+            <div class="onsignal">
+                {{ form.onlongsignal.label_tag }}
+                {{ form.onlongsignal }}
+            </div>
+            <div class="strikeselection">
+                {{ form.onlongstrikeselection.label_tag }}
+                {{ form.onlongstrikeselection }}
+            </div>
+            <div id="dynamic_long_container">
+
+            </div>
+        </div>
+        <div class="onshort signals">
+            <div class="onsignal">
+                {{ form.onshortsignal.label_tag }}
+                {{ form.onshortsignal }}
+            </div>
+            <div class="strikeselection">
+                {{ form.onshortstrikeselection.label_tag }}
+                {{ form.onshortstrikeselection }}
+            </div>
+            <div id="dynamic_short_container">
+
+            </div>
+        </div>
+        <div class="from-date">
+            {{ form.from_date.label_tag }}
+            {{ form.from_date }}
+        </div>
+        <div class="to-date">
+            {{ form.to_date.label_tag }}
+            {{ form.to_date }}
+        </div>
+        <div class="cpr_fields">
+            {{ form.cpr_range.label_tag }}
+            {{ form.cpr_range }}
+            {{ form.cpr_optimize.label_tag }}
+            {{ form.cpr_optimize }}
+            <div class="cpr_optimize_fields">
+                {{ form.cpr_min.label_tag }}
+                {{ form.cpr_min }}
+                {{ form.cpr_max.label_tag }}
+                {{ form.cpr_max }}
+                {{ form.cpr_step.label_tag }}
+                {{ form.cpr_step }}
+            </div>    
+            <div class="exit_type">
+                {{ form.exit_type.label_tag }}
+                {{ form.exit_type }}
+                <div class="exit_type_fields">
+                    
+                </div>
+            </div>
+            <div class="trailing_type">
+                {{ form.trailing_type.label_tag }}
+                {{ form.trailing_type }}
+                <div class="trailing_type_fields">
+
+                </div>
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="{% static "cpr/script.js" %}"></script>
+</body>
+</html>

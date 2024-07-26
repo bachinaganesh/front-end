@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    background-color: rgb(131, 125, 125);
+    color: white;
+    padding: 2rem;
+}
+
+form label {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 5px;
+}
+
+form .instrument {
+    margin: 10px 0;
+}
+
+form .conditionaltrade {
+    margin: 10px 0;
+}
+
+form .signals {
+    margin: 10px 0;
+}
+form .signals * {
+    margin: 3px 0;
+}
+form #dynamic_long_container {
+    margin: 20px 0;
+}
+form #dynamic_long_container #fields {
+    margin: 20px 0;
+}
+form #dynamic_long_container #field_container {
+    display: flex;
+    gap: 10px;
+}
+
+form #dynamic_short_container {
+    margin: 20px 0;
+}
+form #dynamic_short_container #fields {
+    margin: 20px 0;
+}
+form #dynamic_short_container #field_container {
+    display: flex;
+    gap: 10px;
+}
+form .from-date {
+    margin: 10px 0;
+}
+form .to-date {
+    margin: 10px 0;
+}
+
+form .cpr_fields {
+    margin: 10px 0;
+}
+
+form .cpr_fields * {
+    margin: 5px 0;
+}
+
+form .exit_type_fields #field {
+    display: flex;
+    gap: 10px;
+}
+form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.4rem;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+}

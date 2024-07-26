@@ -1,0 +1,180 @@
+[
+    {
+        "datetime": "2018-01-02 09:35:00",
+        "entry_time": "2018-01-02 09:35:00",
+        "entry_price": 148.85,
+        "exit_time": "2018-01-02 10:05:00",
+        "exit_price": 158.85,
+        "pl": 10.0,
+        "trade_type": "Sell",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY18JAN10500PE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2018-01-02 09:35:00",
+                    "2018-01-02 10:05:00"
+                ],
+                "y": [
+                    148.85,
+                    148.85
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2018-01-02 09:35:00",
+                    "2018-01-02 10:05:00"
+                ],
+                "y": [
+                    158.85,
+                    158.85
+                ]
+            },
+            {
+                "name": "tsl",
+                "x": [
+                    "2018-01-02 09:35:00",
+                    "2018-01-02 10:05:00"
+                ],
+                "y": [
+                    158.85,
+                    158.85
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2018-01-02 09:35:00",
+                "y": 10476.4,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2018-01-02 10:05:00",
+                "y": 10451.0,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "datetime": "2018-01-02 12:30:00",
+        "entry_time": "2018-01-02 12:30:00",
+        "entry_price": 136.05,
+        "exit_time": "2018-01-02 12:55:00",
+        "exit_price": 146.05,
+        "pl": 10.0,
+        "trade_type": "Sell",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY18JAN10500PE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2018-01-02 12:30:00",
+                    "2018-01-02 12:55:00"
+                ],
+                "y": [
+                    136.05,
+                    136.05
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2018-01-02 12:30:00",
+                    "2018-01-02 12:55:00"
+                ],
+                "y": [
+                    146.05,
+                    146.05
+                ]
+            },
+            {
+                "name": "tsl",
+                "x": [
+                    "2018-01-02 12:30:00",
+                    "2018-01-02 12:55:00"
+                ],
+                "y": [
+                    146.05,
+                    146.05
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2018-01-02 12:30:00",
+                "y": 10480.1,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2018-01-02 12:55:00",
+                "y": 10467.0,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "datetime": "2018-01-03 10:00:00",
+        "entry_time": "2018-01-03 10:00:00",
+        "entry_price": 106.05,
+        "exit_time": "2018-01-03 12:35:00",
+        "exit_price": 96.05,
+        "pl": -10.0,
+        "trade_type": "Buy",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY18JAN10550CE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2018-01-03 10:00:00",
+                    "2018-01-03 12:35:00"
+                ],
+                "y": [
+                    106.05,
+                    106.05
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2018-01-03 10:00:00",
+                    "2018-01-03 12:35:00"
+                ],
+                "y": [
+                    96.05,
+                    96.05
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2018-01-03 10:00:00",
+                "y": 10535.0,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2018-01-03 12:35:00",
+                "y": 10508.4,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    }
+]

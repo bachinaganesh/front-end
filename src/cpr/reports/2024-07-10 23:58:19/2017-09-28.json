@@ -1,0 +1,128 @@
+[
+    {
+        "datetime": "2017-09-04 11:40:00",
+        "entry_time": "2017-09-04 11:40:00",
+        "entry_price": 130.9,
+        "exit_time": "2017-09-04 11:50:00",
+        "exit_price": 140.9,
+        "pl": 10.0,
+        "trade_type": "Sell",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY17SEP9950PE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2017-09-04 11:40:00",
+                    "2017-09-04 11:50:00"
+                ],
+                "y": [
+                    130.9,
+                    130.9
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2017-09-04 11:40:00",
+                    "2017-09-04 11:50:00"
+                ],
+                "y": [
+                    140.9,
+                    140.9
+                ]
+            },
+            {
+                "name": "tsl",
+                "x": [
+                    "2017-09-04 11:40:00",
+                    "2017-09-04 11:50:00"
+                ],
+                "y": [
+                    140.9,
+                    140.9
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2017-09-04 11:40:00",
+                "y": 9930.0,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2017-09-04 11:50:00",
+                "y": 9913.05,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "datetime": "2017-09-08 10:50:00",
+        "entry_time": "2017-09-08 10:50:00",
+        "entry_price": 107.8,
+        "exit_time": "2017-09-08 13:05:00",
+        "exit_price": 117.8,
+        "pl": 10.0,
+        "trade_type": "Sell",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY17SEP9950PE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2017-09-08 10:50:00",
+                    "2017-09-08 13:05:00"
+                ],
+                "y": [
+                    107.8,
+                    107.8
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2017-09-08 10:50:00",
+                    "2017-09-08 13:05:00"
+                ],
+                "y": [
+                    117.8,
+                    117.8
+                ]
+            },
+            {
+                "name": "tsl",
+                "x": [
+                    "2017-09-08 10:50:00",
+                    "2017-09-08 13:05:00"
+                ],
+                "y": [
+                    117.8,
+                    117.8
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2017-09-08 10:50:00",
+                "y": 9944.9,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2017-09-08 13:05:00",
+                "y": 9936.9,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    }
+]

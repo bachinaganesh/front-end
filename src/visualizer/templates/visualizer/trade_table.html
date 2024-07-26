@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Table</title>
+    <link rel="stylesheet" href="{% static "visualizer/trade_table.css" %}">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Entry Time</th>
+                <th>Entry Price</th>
+                <th>Exit Time</th>
+                <th>Exit Price</th>
+                <th>Contract Name</th>
+                <th>Profit/Loss</th>
+                <th>Trade Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for trade in data %}
+            <tr class="row" onclick="handleRowClick('{{file_path}}', '{{trade.datetime}}')">
+                <td>{{ trade.entry_time }}</td>
+                <td>{{ trade.entry_price }}</td>
+                <td>{{ trade.exit_time }}</td>
+                <td>{{ trade.exit_price }}</td>
+                <td>{{ trade.contract_name }}</td>
+                <td>{{ trade.pl }}</td>
+                <td>{{ trade.trade_type }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <script>
+        function handleRowClick(filePath, datetime) {
+            const url = "{% url 'handle_trade' 'PLACEHOLDER1' 'PLACEHOLDER2' %}"
+                .replace('PLACEHOLDER1', encodeURIComponent(filePath))
+                .replace('PLACEHOLDER2', encodeURIComponent(datetime));
+            console.log("Opening URL:", url);
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>

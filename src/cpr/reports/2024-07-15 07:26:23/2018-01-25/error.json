@@ -1,0 +1,20 @@
+[
+    {
+        "Datetime": "2018-01-02 12:30:00",
+        "Signal Price": 10480.1,
+        "ATM Strike": 10650,
+        "Option_type": "PE"
+    },
+    {
+        "Datetime": "2018-01-10 12:35:00",
+        "Signal Price": 10612.0,
+        "ATM Strike": 10750,
+        "Option_type": "PE"
+    },
+    {
+        "Datetime": "2018-01-10 13:30:00",
+        "Signal Price": 10612.1,
+        "ATM Strike": 10750,
+        "Option_type": "PE"
+    }
+]

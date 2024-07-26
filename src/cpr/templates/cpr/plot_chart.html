@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "cpr/plot_chart.css" %}">
+    <link rel="stylesheet" href="{% static "cpr/trade_table.css" %}">
+    <title>Chart</title>
+</head>
+<body>
+    <div class="chart-info">
+        <table>
+            <thead>
+                <tr>
+                    <th>Entry Time</th>
+                    <th>Exit Time</th>
+                    <th>Entry Price</th>
+                    <th>Exit Price</th>
+                    <th>P/l</th>
+                    <th>Trade Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{trade.entry_time}}</td>
+                    <td>{{trade.exit_time}}</td>
+                    <td>{{trade.entry_price}}</td>
+                    <td>{{trade.exit_price}}</td>
+                    <td>{{trade.pl}}</td>
+                    <td>{{trade.trade_type}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="future-chart charts">
+        <div class="content">
+            <h1>Futures Data Chart</h1>
+        </div>
+        <div class="chart">
+            {{futures_chart | safe}}
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+[
+    {
+        "datetime": "2017-10-04 10:00:00",
+        "entry_time": "2017-10-04 10:00:00",
+        "entry_price": 108.2,
+        "exit_time": "2017-10-04 14:30:00",
+        "exit_price": 108.2,
+        "pl": 0.0,
+        "trade_type": "Buy",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY17OCT9900CE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2017-10-04 10:00:00",
+                    "2017-10-04 14:30:00"
+                ],
+                "y": [
+                    108.2,
+                    108.2
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2017-10-04 10:00:00",
+                    "2017-10-04 14:30:00"
+                ],
+                "y": [
+                    108.2,
+                    108.2
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2017-10-04 10:00:00",
+                "y": 9906.7,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2017-10-04 14:30:00",
+                "y": 9908.25,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "datetime": "2017-10-05 09:55:00",
+        "entry_time": "2017-10-05 09:55:00",
+        "entry_price": 96.8,
+        "exit_time": "2017-10-05 10:30:00",
+        "exit_price": 86.8,
+        "pl": -10.0,
+        "trade_type": "Buy",
+        "instrument_type": "FUT",
+        "symbol": "NIFTY",
+        "contract_name": "NIFTY17OCT9950CE.NFO",
+        "lines": [
+            {
+                "name": "entry_line",
+                "x": [
+                    "2017-10-05 09:55:00",
+                    "2017-10-05 10:30:00"
+                ],
+                "y": [
+                    96.8,
+                    96.8
+                ]
+            },
+            {
+                "name": "exit_line",
+                "x": [
+                    "2017-10-05 09:55:00",
+                    "2017-10-05 10:30:00"
+                ],
+                "y": [
+                    86.8,
+                    86.8
+                ]
+            }
+        ],
+        "symbols": [
+            {
+                "name": "Entry Point",
+                "x": "2017-10-05 09:55:00",
+                "y": 9955.75,
+                "symbol_type": null,
+                "color": "green"
+            },
+            {
+                "name": "Exit Point",
+                "x": "2017-10-05 10:30:00",
+                "y": 9926.0,
+                "symbol_type": null,
+                "color": "red"
+            }
+        ]
+    }
+]

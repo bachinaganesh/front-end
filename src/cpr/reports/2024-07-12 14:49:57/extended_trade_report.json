@@ -1,0 +1,377 @@
+[
+  {
+    "datetime": "2018-01-02 09:35:00",
+    "entry_time": "2018-01-02 09:35:00",
+    "entry_price": 61.4,
+    "exit_time": "2018-01-02 14:30:00",
+    "exit_price": 60.25,
+    "pl": -1.15,
+    "trade_type": "Short Signal",
+    "instrument_type": "FUT",
+    "symbol": "NIFTY",
+    "contract_name": "NIFTY18JAN10600CE.NFO",
+    "lines": [
+      {
+        "name": "entry_line",
+        "x": [
+          "2018-01-02 09:35:00",
+          "2018-01-02 14:30:00"
+        ],
+        "y": [
+          61.4,
+          61.4
+        ]
+      },
+      {
+        "name": "exit_line",
+        "x": [
+          "2018-01-02 09:35:00",
+          "2018-01-02 14:30:00"
+        ],
+        "y": [
+          60.25,
+          60.25
+        ]
+      },
+      {
+        "name": "tsl",
+        "x": [
+          "2018-01-02 09:35:00",
+          "2018-01-02 14:30:00"
+        ],
+        "y": [
+          51.4,
+          51.4
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "name": "Entry Point",
+        "x": "2018-01-02 09:35:00",
+        "y": 10476.4,
+        "symbol_type": null,
+        "color": "green"
+      },
+      {
+        "name": "Exit Point",
+        "x": "2018-01-02 14:30:00",
+        "y": 10446.8,
+        "symbol_type": null,
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "datetime": "2018-01-03 10:00:00",
+    "entry_time": "2018-01-03 10:00:00",
+    "entry_price": 44.05,
+    "exit_time": "2018-01-03 14:20:00",
+    "exit_price": 34.05,
+    "pl": -10.0,
+    "trade_type": "Long Signal",
+    "instrument_type": "FUT",
+    "symbol": "NIFTY",
+    "contract_name": "NIFTY18JAN10700CE.NFO",
+    "lines": [
+      {
+        "name": "entry_line",
+        "x": [
+          "2018-01-03 10:00:00",
+          "2018-01-03 14:20:00"
+        ],
+        "y": [
+          44.05,
+          44.05
+        ]
+      },
+      {
+        "name": "exit_line",
+        "x": [
+          "2018-01-03 10:00:00",
+          "2018-01-03 14:20:00"
+        ],
+        "y": [
+          34.05,
+          34.05
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "name": "Entry Point",
+        "x": "2018-01-03 10:00:00",
+        "y": 10535.0,
+        "symbol_type": null,
+        "color": "green"
+      },
+      {
+        "name": "Exit Point",
+        "x": "2018-01-03 14:20:00",
+        "y": 10491.35,
+        "symbol_type": null,
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "datetime": "2018-01-10 11:45:00",
+    "entry_time": "2018-01-10 11:45:00",
+    "entry_price": 48.8,
+    "exit_time": "2018-01-10 14:30:00",
+    "exit_price": 53.2,
+    "pl": 4.4,
+    "trade_type": "Short Signal",
+    "instrument_type": "FUT",
+    "symbol": "NIFTY",
+    "contract_name": "NIFTY18JAN10700CE.NFO",
+    "lines": [
+      {
+        "name": "entry_line",
+        "x": [
+          "2018-01-10 11:45:00",
+          "2018-01-10 14:30:00"
+        ],
+        "y": [
+          48.8,
+          48.8
+        ]
+      },
+      {
+        "name": "exit_line",
+        "x": [
+          "2018-01-10 11:45:00",
+          "2018-01-10 14:30:00"
+        ],
+        "y": [
+          53.2,
+          53.2
+        ]
+      },
+      {
+        "name": "tsl",
+        "x": [
+          "2018-01-10 11:45:00",
+          "2018-01-10 14:30:00"
+        ],
+        "y": [
+          38.8,
+          38.8
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "name": "Entry Point",
+        "x": "2018-01-10 11:45:00",
+        "y": 10601.15,
+        "symbol_type": null,
+        "color": "green"
+      },
+      {
+        "name": "Exit Point",
+        "x": "2018-01-10 14:30:00",
+        "y": 10626.0,
+        "symbol_type": null,
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "datetime": "2018-01-11 12:15:00",
+    "entry_time": "2018-01-11 12:15:00",
+    "entry_price": 25.65,
+    "exit_time": "2018-01-11 14:30:00",
+    "exit_price": 27.4,
+    "pl": 1.75,
+    "trade_type": "Long Signal",
+    "instrument_type": "FUT",
+    "symbol": "NIFTY",
+    "contract_name": "NIFTY18JAN10800CE.NFO",
+    "lines": [
+      {
+        "name": "entry_line",
+        "x": [
+          "2018-01-11 12:15:00",
+          "2018-01-11 14:30:00"
+        ],
+        "y": [
+          25.65,
+          25.65
+        ]
+      },
+      {
+        "name": "exit_line",
+        "x": [
+          "2018-01-11 12:15:00",
+          "2018-01-11 14:30:00"
+        ],
+        "y": [
+          27.4,
+          27.4
+        ]
+      },
+      {
+        "name": "tsl",
+        "x": [
+          "2018-01-11 12:15:00",
+          "2018-01-11 14:30:00"
+        ],
+        "y": [
+          15.649999999999999,
+          15.649999999999999
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "name": "Entry Point",
+        "x": "2018-01-11 12:15:00",
+        "y": 10650.05,
+        "symbol_type": null,
+        "color": "green"
+      },
+      {
+        "name": "Exit Point",
+        "x": "2018-01-11 14:30:00",
+        "y": 10667.55,
+        "symbol_type": null,
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "datetime": "2018-01-16 13:15:00",
+    "entry_time": "2018-01-16 13:15:00",
+    "entry_price": 28.9,
+    "exit_time": "2018-01-16 14:30:00",
+    "exit_price": 31.05,
+    "pl": 2.15,
+    "trade_type": "Short Signal",
+    "instrument_type": "FUT",
+    "symbol": "NIFTY",
+    "contract_name": "NIFTY18JAN10800CE.NFO",
+    "lines": [
+      {
+        "name": "entry_line",
+        "x": [
+          "2018-01-16 13:15:00",
+          "2018-01-16 14:30:00"
+        ],
+        "y": [
+          28.9,
+          28.9
+        ]
+      },
+      {
+        "name": "exit_line",
+        "x": [
+          "2018-01-16 13:15:00",
+          "2018-01-16 14:30:00"
+        ],
+        "y": [
+          31.05,
+          31.05
+        ]
+      },
+      {
+        "name": "tsl",
+        "x": [
+          "2018-01-16 13:15:00",
+          "2018-01-16 14:30:00"
+        ],
+        "y": [
+          18.9,
+          18.9
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "name": "Entry Point",
+        "x": "2018-01-16 13:15:00",
+        "y": 10710.0,
+        "symbol_type": null,
+        "color": "green"
+      },
+      {
+        "name": "Exit Point",
+        "x": "2018-01-16 14:30:00",
+        "y": 10714.9,
+        "symbol_type": null,
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "datetime": "2018-01-17 09:30:00",
+    "entry_time": "2018-01-17 09:30:00",
+    "entry_price": 19.05,
+    "exit_time": "2018-01-17 14:30:00",
+    "exit_price": 39.7,
+    "pl": 20.65,
+    "trade_type": "Short Signal",
+    "instrument_type": "FUT",
+    "symbol": "NIFTY",
+    "contract_name": "NIFTY18JAN10800CE.NFO",
+    "lines": [
+      {
+        "name": "entry_line",
+        "x": [
+          "2018-01-17 09:30:00",
+          "2018-01-17 14:30:00"
+        ],
+        "y": [
+          19.05,
+          19.05
+        ]
+      },
+      {
+        "name": "exit_line",
+        "x": [
+          "2018-01-17 09:30:00",
+          "2018-01-17 14:30:00"
+        ],
+        "y": [
+          39.7,
+          39.7
+        ]
+      },
+      {
+        "name": "tsl",
+        "x": [
+          "2018-01-17 09:30:00",
+          "2018-01-17 10:00:00",
+          "2018-01-17 10:00:00",
+          "2018-01-17 13:25:00",
+          "2018-01-17 13:25:00",
+          "2018-01-17 14:30:00"
+        ],
+        "y": [
+          9.05,
+          9.05,
+          19.05,
+          19.05,
+          29.05,
+          29.05
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "name": "Entry Point",
+        "x": "2018-01-17 09:30:00",
+        "y": 10676.5,
+        "symbol_type": null,
+        "color": "green"
+      },
+      {
+        "name": "Exit Point",
+        "x": "2018-01-17 14:30:00",
+        "y": 10753.8,
+        "symbol_type": null,
+        "color": "red"
+      }
+    ]
+  }
+]
